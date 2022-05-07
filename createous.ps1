@@ -13,5 +13,5 @@ $OUs = @(
 ) 
 
 ForEach ($ou in $OUs) {
-    New-ADOrganizationalUnit -Path 'OU=Corp,DC=mb,DC=local' -Name $ou
+    New-ADOrganizationalUnit -Path 'OU=Corp,DC=sviscarra,DC=internal' -Name $ou
 }
